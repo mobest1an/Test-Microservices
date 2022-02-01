@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: customer
+  datasource:
+    url: jdbc:postgresql://localhost:5432/customer
+    driver-class-name: org.postgresql.Driver
+    username: amigoscode
+    password: password
+  jpa:
+    generate-ddl: true

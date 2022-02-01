@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: fraud
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fraud
+    driver-class-name: org.postgresql.Driver
+    username: amigoscode
+    password: password
+  jpa:
+    generate-ddl: true
