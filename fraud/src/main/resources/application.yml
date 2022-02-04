@@ -10,7 +10,8 @@ spring:
     username: amigoscode
     password: password
   jpa:
-    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop
 
 eureka:
   client:
